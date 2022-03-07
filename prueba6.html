@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TP-Web</title>
+</head>
+<body>
+	<form action="#" method="get">
+		<fieldset>
+			<legend>Datos del formulario</legend>
+		<label for="nombre">Escribe tu nombre: </label>
+		<input type="text" name="nombre" id="nombre" size="20" maxlength="16" value="Julio"><br><br>
+
+		<label for="contrasenia">Escribe tu contraseña</label>
+		<input type="password" name="contrasenia" id="contrasenia" required placeholder="Escribe tu contraseña"><br><br>
+
+		<label for="email">Escribe tu email</label>
+		<input type="email" name="email" id="email"><br><br>
+
+		<input type="radio" name="genero" id="hombre" value="hombre" checked>
+		<label for="hombre">Hombre</label>
+		<input type="radio" name="genero" id="mujer" value="mujer">
+		<label for="mujer">Mujer</label>
+		<input type="radio" name="genero" id="otro" value="otro">
+		<label for="otro">Otro</label>
+
+		<br><br>
+
+		<input type="checkbox" name="idiomas" id="espaniol" value="espaniol" checked>
+		<label for="espaniol">Español</label>
+		<input type="checkbox" name="idiomas" id="ingles" value="ingles">
+		<label for="ingles">Ingles</label>
+		<input type="checkbox" name="idiomas" id="frances" value="frances">
+		<label for="frances">Frances</label>
+		<input type="checkbox" name="idiomas" id="italiano" value="italiano">
+		<label for="italiano">Italiano</label>
+
+		<br><br>
+
+		<input type="file" name="archivo">
+
+		<br><br>
+
+		<label for="lenguajes">Lenguajes de programación: </label>
+		<select name="lenguajes" id="lenguajes" multiple>
+			<option value="java">Java</option>
+			<option value="cshared">C#</option>
+			<option value="python">Python</option>
+		</select>
+
+		<br><br>
+
+		<label for="lenguajes2">Leneguajes por aprender</label>
+		<input list="lenguajes2">
+		<datalist id="lenguajes2">
+			<option value="java"></option>
+			<option value="cshared"></option>
+			<option value="python"></option>
+		</datalist>
+
+		<br><br>
+
+		<input type="reset">
+		<input type="submit" value="Enviar todos los datos">
+		</fieldset>
+	</form>
+</body>
+</html>
