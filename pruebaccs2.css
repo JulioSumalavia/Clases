@@ -1,3 +1,5 @@
 		p.textoRojo {color: red;}
 		div.caja{ background-color: orange; }
 		div.cajaImagen{background-image: url(./imagenes/Cenec.jpg); width: 300px; height: 300px; border: dashed; border-width: 10px; border-color: tomato; border-top-style: dotted;}
+		div.pruebaMargin{border: solid;padding: 20px;margin: auto;width: 100px}
+		/*comentarios*/
