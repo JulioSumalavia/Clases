@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TP-Web Pruebas CSS 5</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		a:visited{
+			color: orange;
+		}
+		a:link {
+			color: red;
+		}
+		a:hover{
+			color: green;
+		}
+		p.parrafo1::first-letter {
+			font-size: 30px;
+			color: red;
+		}
+		p.parrafo1::first-line {
+			font-style: italic;
+		}
+		p::before {
+			content: "Voy Antes"
+		}
+		p::after {
+			content: "Voy Después"
+		}
+		p::selection {
+			background-color: red;	
+		}
+		.caja1 {
+			width: 350px;
+			height: 150px;
+			border: 1px solid red;
+		}
+		.caja2 {
+			width: 350px;
+			height: 150px;
+			padding: 50px;
+			border: 1px solid blue;
+		}
+		.cajaF1{
+			background: aquamarine;
+			float: left;
+			padding: 10px;
+		}
+		.cajaF2{
+			background: lime;
+			float: left;
+			padding: 10px;
+		}
+		.cajaF3{
+			background: tomato;
+			float: right;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<a href="#0">Soy en enlace</a><br>
+	<a href="#1">Soy en enlace2</a>
+
+	<p class="parrafo1">Hola buenas tardes<br> soy un parrafo.</p>
+	<p class="parrafo1">Este es otro parrafo aparte</p>
+
+	<div class="caja1">
+		Caja 1
+	</div>
+	<br>
+
+	<div class="caja2">
+		Caja 2
+	</div>
+
+	<br>
+
+	<div class="cajaF1">
+		Caja 1
+	</div>
+
+	<div class="cajaF2">
+		Caja 2
+	</div>
+
+	<div class="cajaF3">
+		Caja 3
+	</div>
+
+</body>
+</html>
