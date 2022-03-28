@@ -13,14 +13,14 @@
 			width: 500px;
 			height: 200px;
 			border: 1px black solid;
-			visibility: hidden;
+			display: none;
 		}
 		.contenedor2{
 			width: 500px;
 			height: 200px;
 			border: 1px black solid;
-			display: absolute;
-					}
+			position: relative;
+		}
 		p.pruebasPosition{
 			position: sticky;
 			right: 0px;
@@ -28,12 +28,12 @@
 			padding: 15px;
 		}
 		p.pruebasAbsolute{
-			display: absolute;
-			top: 50px;
-			}
-			a[target="_blank"]{
+			position: absolute;
+			left: 50px;
+		}
+		a[target="_blank"]{
 				color: orange;
-			}
+		}
 	</style>
 </head>
 <body>
@@ -49,11 +49,10 @@
 	<div class="contenedor"></div>
 	<p>Estoy por debajo del contenedor</p><br><br>
 
-	<p>Estoy arriba del contenedor2</p>
 	<div class="contenedor2">
 		<p class="pruebasAbsolute">pruebas absolute</p>		
 	</div>
-	<p>Estoy por debajo del contenedor2</p>
+	
 
 	<div>
 	<p  class="pruebasPosition">prueba</p>
