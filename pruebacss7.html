@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+
+		@media screen and (max-width: 600px) {
+			body {
+				background-color: red;
+			}
+			p {
+				font-size: 40px;
+			}
+		}
+
+		.opacidad {
+			opacity: 0.5;
+		}
+		.opacidad2 {
+			padding: 20px;
+			background-color: rgba(0, 255, 0, 0.5);
+		}
+		.filtros {
+			/*filter: sepia(50%);*/
+			height: 600px;
+			width: 300px;
+			object-fit: cover;
+			object-position: 0% 0%;
+		}
+
+		@keyframes cambiaColor {
+			0% {background-color: red; left: 0;}
+			50% {background-color: yellow;}
+			60% {left: 150px}
+			100% {background-color: blue; left: 150px}
+		}
+
+		.animacion1 {
+			height: 100px;
+			width: 100px;
+			background-color: red;
+			animation-name: cambiaColor;
+			animation-fill-mode: forwards;
+			animation-duration: 4s;
+			/*animation-iteration-count: infinite;
+			animation-delay: -2s;
+			animation-direction: alternate;*/
+			animation-timing-function: ease-out;
+			position: relative;
+		}
+		.transaccion1 {
+			height: 100px;
+			width: 100px;
+			background-color: blue;
+			transition: width 2s, background-color 3s; transform: 3s;
+			transform: skew(45deg,0deg);
+		}
+		.transaccion1:hover {
+			width: 200px;
+			background-color: lime;
+		}
+	</style>
+</head>
+<body>
+	<p>Hola Mundo</p>
+	<img src="./imagenes/catedral.jpg" class="filtros">
+	<div class="opacidad2">
+	Texto 1
+    </div>
+    <br>
+    <div class="animacion1">
+    	
+    </div>
+    <div class="transaccion1">
+    	
+    </div>
+</body>
+</html>

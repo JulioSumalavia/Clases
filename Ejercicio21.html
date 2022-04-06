@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TP-Web Ejercicios 21</title>
+	<style type="text/css">
+		@keyframes filtros{
+			0% {filter: brightness(100%);}
+			20% {filter: brightness(200%);}
+			40% {filter: grayscale(50%);}
+			60%{filter: invert(150%);}
+			80%{filter: sepia(150%);}
+			100%{filter: blur(5px);}
+		}
+
+		.filtro {
+			animation-name: filtros;
+			animation-iteration-count: infinite;
+			animation-duration: 4s;
+		}
+	</style>
+</head>
+<body>
+	<img src="./imagenes/catedral.jpg" class="filtro">
+
+</body>
+</html>
