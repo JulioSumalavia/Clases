@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Document2</title>
+</head>
+<body>
+    <p id="texto"></p>
+    <input type="button" value="A rojo" onclick="funcion1()"/>
+    <script>
+        funcion1()
+
+        document.getElementById("texto").innerHTML = "Soy un texto que cambia de color";
+        function funcion1() {
+            let fontcolor = "red";
+        }
+    </script>
+</body>
+
+</html>
