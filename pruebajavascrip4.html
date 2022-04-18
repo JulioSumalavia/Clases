@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title></title>
+</head>
+<body>
+    <script>
+        let edad = parseInt(prompt("Inserta tu edad"));
+        if (edad > 18) {
+            alert("Eres mayor de edad");
+        //let genero = prompt ("Dime tu genero")
+        }
+        else {
+            alert ("Eres menor de edad")
+        }
+        let genero = prompt ("Dime tu genero").toLocaleLowerCase();
+        /*if (genero == "hombre") {
+            alert("Hola buenas Señor");
+        }
+        else if(genero == "mujer"){
+            alert("Hola buenas Señora");
+        }
+        else{
+            alert("Hola buenas");
+        }*/
+        switch(genero) {
+            case "Hombre":
+            case "hombre":
+                //Caso en que sea hombre
+                alert("Hola buenas Señor");
+                break;
+            case "Mujer": 
+            case "mujer":
+                alert("Hola buenas Señora");
+                break;
+            default:
+                alert("Hola buenas");
+                break;
+        }
+    </script>
+
+</body>
+</html>
