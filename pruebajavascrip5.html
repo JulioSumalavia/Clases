@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="parrafo"></p>
+    <script>
+        let numero = parseInt(prompt("Dime un numero"));
+        for (let i=0; i<=10; i++) {
+            document.getElementById("parrafo").innerHTML += numero + "x" + i + "=" + (numero*i) + "<br>";//6 x 1 = resultado
+        }
+        /*do {
+            numero = parseInt(prompt("Dime un numero"));
+            }while (numero < 1 || numero > 10) */     
+            /*while (numero < 1 || numero > 10)
+              numero = parseInt(prompt("Dime un numero"));
+        }*/
+    </script>
+    
+</body>
+</html>
