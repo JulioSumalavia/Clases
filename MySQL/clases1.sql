@@ -1,0 +1,1 @@
+SELECT * FROM tienda_de_comics.productos_pedidos;
