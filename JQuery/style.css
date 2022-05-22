@@ -1,0 +1,11 @@
+td > a, th > a {
+    color: red;
+}
+
+.mi-tabla{
+    border: 2px solid;
+}
+
+.mi-tabla-2{
+    border: 2px solid;
+}

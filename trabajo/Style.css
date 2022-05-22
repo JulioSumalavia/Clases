@@ -1,0 +1,30 @@
+{
+    background-color: #A59D9B;
+}
+#center{
+    text-align: center;
+}
+#caja1{
+    align-items: center;
+    display: flex;
+}
+#caja2{
+    width: 400px;
+    height: 200px;
+}
+#art{
+    width: 400px;
+    height: 200px;
+}
+.card {
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px;
+}
+#twitter{
+    width: 40px;
+    margin-bottom: 10px;
+}
+#login{
+    text-align: center;
+}

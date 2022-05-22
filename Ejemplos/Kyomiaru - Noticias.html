@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!-- saved from url=(0074)https://lander990.github.io/publico/PruebasProyecto/noticias/noticias.html -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Kyomiaru - Noticias</title>
+		
+		<meta title="Kyomiaru - Noticias interesantes sobre anime">
+		<meta name="description" content="Noticias, fechas de proximos animes, adelantos y mas! Todo reunido en una misma pagina!">
+		<link rel="stylesheet" type="text/css" href="./Kyomiaru - Noticias_files/noticias.css">
+		<link rel="icon" href="./Kyomiaru - Noticias_files/logo.jpg" sizes="32x32">
+		<link rel="stylesheet" href="./Kyomiaru - Noticias_files/font-awesome.min.css">
+		<script src="./Kyomiaru - Noticias_files/jquery.min.js.descarga"></script>
+		<script type="text/javascript" src="./Kyomiaru - Noticias_files/noticias.js.descarga"></script>
+
+	</head>
+	<body onload="cargarUser()">
+		<nav>
+			<a class="mouse" href="https://lander990.github.io/publico/PruebasProyecto/index.html">Inicio</a>
+			<a class="mouse" href="https://lander990.github.io/publico/PruebasProyecto/noticias/noticias.html#" id="selected">Noticias</a>
+			<a class="mouse" href="https://lander990.github.io/publico/PruebasProyecto/dolly/dolly.html">Dolly</a>
+			<a class="mouse" href="https://lander990.github.io/publico/PruebasProyecto/diagrama/diagrama.html">Diagramas</a>
+			<a id="vacio" class="entrada mouse"></a>
+
+			<a class="mouse" id="logout" onclick="logout()">Cerrar Sesion</a>
+			<a class="mouse" href="https://lander990.github.io/publico/PruebasProyecto/login/login.html" id="login">Iniciar sesion</a>
+
+		</nav>
+		
+		<main>
+			<div class="caja-noticias">
+				<div class="noticia">
+					<a href="https://lander990.github.io/publico/PruebasProyecto/noticias/noticias.html#" class="in-noticia">
+						<img src="./Kyomiaru - Noticias_files/portada_shadows-house-14.jpg">
+
+						<p>
+							<b id="titulo-noticia">El anime Shadow House tendrá 12 episodios.</b><br><br>
+							En el sitio oficial para la adaptación animada del manga escrito e ilustrado por el grupo creativo Soumatou, Shadows House, se publicó la información de distribución de los paquetes Blu-ray/DVD recopilatorios. Esta información confirmó que la serie tendrá un total de trece episodios.
+
+						</p>
+					</a>
+				</div>
+
+				<div class="noticia">
+					<a href="https://lander990.github.io/publico/PruebasProyecto/noticias/noticias.html#" class="in-noticia">
+						<img src="./Kyomiaru - Noticias_files/mushoku-tensei-polemica.jpg">
+						<p>
+							<b id="titulo-noticia">El director de Mushoku Tensei responde algunas preguntas.</b><br><br>
+							El portal AnimeNewsNetwork se entrevistó con el director Manabu Okamoto y el presidente de Studio Bind, Toshiya Ootomo, quienes participan en la producción de la adaptación animada de las novelas ligeras Mushoku Tensei: Jobless Reincarnation
+
+						</p>
+					</a>
+				</div>
+
+				<div class="noticia">
+					<a href="https://lander990.github.io/publico/PruebasProyecto/noticias/noticias.html#" class="in-noticia">
+						<img src="./Kyomiaru - Noticias_files/snk-eren.jpg">
+						<p>
+							<b id="titulo-noticia">Se muestra el trailer de la segunda mitad de la temporada final de Ataque a los titanes.</b><br><br>
+							En la guía de programación para la televisora NHK se publicó la información oficial para lo que será el primer episodio para la temporada final del anime Shingeki no Kyojin (también conocido como Attack on Titan).
+						</p>
+					</a>
+				</div>
+				<div class="noticia">
+					<a href="https://lander990.github.io/publico/PruebasProyecto/noticias/noticias.html#" class="in-noticia">
+						<img src="./Kyomiaru - Noticias_files/portada_arifureta.jpg">
+						<p>
+							<b id="titulo-noticia">La segunda temporada de Arifureta se entrena en 2022.</b><br><br>
+							En el sitio oficial para la adaptación animada de las novelas ligeras escritas por Ryo Shirakome, publicó el primer video promocional para la segunda temporada del proyecto. El video confirma que la serie se estrenará en el mes de enero de 2022.
+
+						</p>
+					</a>
+				</div>
+				<div class="noticia">
+					<a href="https://lander990.github.io/publico/PruebasProyecto/noticias/noticias.html#" class="in-noticia">
+						<img src="./Kyomiaru - Noticias_files/portada-bokunohero.jpg">
+						<p>
+							<b id="titulo-noticia">La quinta temporada de Boku no Hero Academia revela los detalles de su primer Blu-ray/DVD.</b><br><br>
+							En el sitio oficial para la adaptación animada del manga de Kohei Horikoshi, Boku no Hero Academia (My Hero Academia), se publicaron la portada y los detalles del primer paquete Blu-ray/DVD recopilatorio de la quinta temporada del proyecto.
+
+						</p>
+					</a>
+				</div>
+				<div class="noticia">
+					<a href="https://lander990.github.io/publico/PruebasProyecto/noticias/noticias.html#" class="in-noticia">
+						<img src="./Kyomiaru - Noticias_files/portada_nanatsu.jpg">
+						<p>
+							<b id="titulo-noticia">Nanatsu no Taizai: Fundo no Shinpan lanza su tercer video promocional</b><br><br>
+							En el sitio oficial para la franquicia animada de Nanatsu no Taizai se publicó el tercer video promocional para el anime Nanatsu no Taizai: Fundo no Shinpa, la temporada final del proyecto.
+
+						</p>
+					</a>
+				</div>
+				
+			</div>
+		</main>
+		<div class="zona-anuncios">
+			<div class="anuncios">
+				<div class="anuncio">
+					<img src="./Kyomiaru - Noticias_files/AnuncioCostra1.png">
+				</div>
+							<div class="anuncio">
+					<img src="./Kyomiaru - Noticias_files/AnuncioCostra1.png">
+				</div>
+							<div class="anuncio">
+					<img src="./Kyomiaru - Noticias_files/AnuncioCostra1.png">
+				</div>
+							<div class="anuncio">
+					<img src="./Kyomiaru - Noticias_files/AnuncioCostra1.png">
+				</div>
+			</div>
+		</div>
+
+		<div id="myModal" class="modal">
+			<span class="close" onclick="cerrarVideo()">×</span>
+			<iframe class="modal-content" width="1000" height="600" src="./Kyomiaru - Noticias_files/Z7-cYkrUHrI.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+		</div>
+
+		<footer>
+			<hr>
+			<div class="contenedor-logo">
+				<img src="./Kyomiaru - Noticias_files/logo.jpg" class="logo">
+				<div class="texto-logo">
+					<ul>
+						<li>Antonio Delgado Vietes <i class="fa fa-copyright"></i></li>
+						<li>1º DAW - Cenec Malaga</li>
+						<li onclick="abrirVideo()"><a href="https://lander990.github.io/publico/PruebasProyecto/noticias/noticias.html#">Creditos</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+
+	
+	</body></html>
